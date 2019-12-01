@@ -1,1 +1,1 @@
-Hey! a new example 2!
+A simple gh-pages javascript example

@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body {
+	margin:5;
+	padding:0;
+	font-family:helvetica,arial,sans-serif;
+	font-size:11pt;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:'times new roman',serif;
+}
+h1 {
+	font-size:1.3em;
+	letter-spacing:.02em;
+	font-weight:bold;
+}
+h2 {
+	font-size:1.2em;
+	letter-spacing:.02em;
+	font-weight:bold;
+}
+h3 {
+	font-size:1.1em;
+	letter-spacing:.02em;
+	font-weight:bold;
+}
+h4,h5,h6 {
+	font-size:1em;
+	padding:0;
+	margin:0;
+	letter-spacing:.01em;
+}
+img {border:0;}
+pre,code {
+	font-family:'Courier New', monospace;
+	font-size:.8em;
+}
+dt {
+	font-weight:bold;
+}
+dd {
+	margin:0 0 1.5em 5em;
+}
+dfn {
+	font-style:normal;
+}
+abbr, acronym {
+	text-decoration:none;
+	cursor:help;
+}
+a abbr, a acronym {
+	cursor:pointer;
+}
+fieldset {
+	padding:10px;
+}
+legend {
+	margin:0 0 0 -11px;
+	padding:2px 5px;
+	font-weight:bold;
+}
+label {
+	font-weight:bold;
+}
+optgroup {
+	font-family:georgia, palatino, 'times new roman',serif;
+	font-weight:normal;
+}
+input,select {
+	font-size:1em;
+}
+textarea {
+	font-size:1em;
+	width:90%;
+}
+address {
+	font-style:normal;
+}
+q:before, q:after {
+    content:"";
+}
+
+/* LINKS */
+a {
+        text-decoration:underline;
+	color: #316ED6;
+}
+a:link, a:visited {
+        text-decoration:underline;
+}
+a:hover,a:active,a:focus {
+        text-decoration:underline;
+}
